@@ -2,6 +2,8 @@
 
 Вариант 11: Мебель.
 
+Модифицировалась 5 работа.
+
 ## Инструкция по запуску
 
 Убедитесь в наличии на вашем устройстве [JDK](https://www.oracle.com/java/technologies/downloads/#jdk17-windows)
@@ -17,6 +19,8 @@ java -jar target/mvc-0.0.1-SNAPSHOT.jar true
 
 _Для сборки необходим [Maven](https://maven.apache.org/download.cgi)_
 
+_[Документация](https://documenter.getpostman.com/view/31418916/2s9YeLWoKH) по запросам в Postman_
+
 Для реализации сервиса "клиент" был использован класс WebClient, а не RestTemplate, 
 т.к. последний не поддерживает PATCH запросы.
 
@@ -24,3 +28,7 @@ _Для сборки необходим [Maven](https://maven.apache.org/downloa
 передать аргумент "true" при запуске.
 
 Контроллер реализован с использованием аннотации @RestController.
+
+![img.png](images/readme.png)
+
+Демонстрация работы клиента.
